@@ -1,0 +1,61 @@
+%%
+%%% >>> Title Page
+%%
+%%
+%%%%********************** Chinese Title Page **************************************** 
+%%
+  \classification{}
+  \confidential{}
+  \UDC{}
+%% 标题格式 \title[short title for headers]{Long title of thesis}
+  \title[南理工学位论文\LaTeX{}模板]{南京理工大学学位\\论文\LaTeX{}模板}
+  \titleUpp{南京理工大学学位}
+  \titleLow{论文\LaTeX{}模板}
+  \author{xxx}
+  \authorNumber{920xxxxxxxxx}
+  \advisor{xxx}
+  \advisortitle{教授}
+  \coadvisor{XXX}
+  \coadvisortitle{教授}
+  \degree{xx学院}
+  \major{xxxx}
+  \interest{xx}
+  \school{南\hspace{5pt} 京\hspace{5pt} 理\hspace{5pt} 工\hspace{5pt} 大\hspace{5pt} 学}
+  \submitdate{2024.05}
+  \incoverdate{2024年06月}
+  %
+  \titleBackbone{南\\京\\理\\工\\大\\学\\学\\位\\论\\文\\模\\板}
+  \schoolBackbone{南\\京\\理\\工\\大\\学}
+%%
+%%%%********************** English Title Page **************************************** 
+%%
+  \englishtitle{Template for Degree Thesis in NJUST \\ (\LaTeX)}
+  \englishauthor{xxxxxxx}
+  \englishadvisor{xxx xxx}
+    \englishcoadvisor{xxx xxx}
+  \englishinstitute{Nanjing University of Science \& Technology}
+  \englishdate{June, 2024}
+  \englishdegree{Dissertation}
+%%
+%%%%********************** Generate CHN & Eng Title *********************************** 
+%%% 
+%%
+\maketitle
+%%
+\makeincovertitle
+%%
+\makeenglishtitle
+%% make statement page
+\makeatletter
+\cleardoublepage
+\thispagestyle{empty}
+\begin{center}
+\input{tex/statement}
+\end{center}
+\clearpage
+\if@twoside
+  \thispagestyle{empty}
+  \cleardoublepage
+\fi
+ \makeatother
+%%%%*********************************** END *******************************************
