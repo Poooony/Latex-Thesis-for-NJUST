@@ -1,4 +1,4 @@
-# Latex-Thesis-for-NJUST
+# LaTeX-Thesis-for-NJUST
 
 本模板目前为学士学位论文而设置，如有硕士或博士有需求，请自行更改相关内容
 
@@ -30,7 +30,7 @@
 
 感谢[jiec827 (Jie Cheng)](https://github.com/jiec827)和[其他人](https://code.google.com/archive/p/latex-njust808/)对模板的贡献，没有他们，这个项目是不可能做成的
 
-由于本人第一次使用Latex与git，并第一次编写README，难免会有疏忽，敬请指正
+由于本人第一次使用LaTeX与git，并第一次编写readme，难免会有疏忽，敬请指正
 
 ***
 
